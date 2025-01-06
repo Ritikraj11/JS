@@ -275,8 +275,8 @@ const hundreds = 1000000
 // console.log((Math.random()*10) + 1);
 // console.log(Math.floor(Math.random()*10) + 1);
 
-const min = 10
-const max = 20
+const min = 1
+const max = 6
 
 // console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 
@@ -284,5 +284,15 @@ const number = 5.689484
 
 // console.log(Math.round(number))
 // console.log(Math.max(2,5,46,84,22,41))
-console.log(Math.exp(1));
+// console.log(Math.exp(1));
+// console.log(Math.pow(2 , (number)));
+
+const random = Math.random()
+// console.log(random)
+const randomNumber = Math.round(random * 100) 
+console.log(Math.round(randomNumber))
+
+// console.log(`hello , the random number is ${randomNumber}`)
+
+
 
