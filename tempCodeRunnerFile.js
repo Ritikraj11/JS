@@ -1,1 +1,2 @@
-mySym
+
+// console.log(JsUser.greetingTwo());
