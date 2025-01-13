@@ -86,4 +86,15 @@ const obj4 = {5: "a", 6: "b"}
 // console.log(obj3) ==> //output : { '1': 'a', '2': 'b', '3': 'a', '4': 'b', '5': 'a', '6': 'b' }
 
 const obj3 ={...obj1, ...obj2,...obj4}
-console.log(obj3)
+// console.log(obj3)
+
+const course = {
+    courseName : "js ",
+    coursePrice : "999",
+    courseInstructoer : "ritik"
+}
+
+course.courseInstructoer
+
+const {courseInstructoer:instructor} = course // acess by a unique name given by developer
+// console.log(instructor)
