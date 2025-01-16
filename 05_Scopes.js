@@ -13,3 +13,36 @@ var c = 300
                             // updated with 300
 
 
+            // Scope in Nested Functions
+
+function one(){
+    let userName = "Ritik";
+    console.log("My Name is : ");
+    
+    function two(){
+        let website = "Youtube";
+        console.log(userName);
+        
+    }
+    // console.log(website);
+    
+    two()
+}
+// one()
+
+
+
+// console.log(addOne(5)); // it can run before initialization and after initialization
+function addOne(num){
+    return num + 1;
+}
+
+// console.log(addOne(5));
+
+
+// console.log(addTwo(5)) // Error: Cannot access 'addTwo' before initialization
+const addTwo = function(num){
+    return num+2 
+}
+
+// console.log(addTwo(5)) // output = 7
